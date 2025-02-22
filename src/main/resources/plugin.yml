@@ -1,0 +1,10 @@
+name: doughnutPainter
+version: '${project.version}'
+main: com.chef.painter.doughnutPainter.PluginMain
+api-version: 1.16
+authors: [ qc ]
+description: chefPlugin_doughnutPainter
+#load: STARTUP
+commands:
+  cep:
+    description: "[doughnutPainter] 输入 /cep help 来获取帮助"
